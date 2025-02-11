@@ -15,12 +15,7 @@ import project.foodexpressv2.enums.UserRole;
 @Data
 @Entity
 @Table(name = "user_role")
-public class Role {
-
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Id
-    @Column(name = "id")
-    private long id;
+public class Role extends BaseEntity {
 
     @Enumerated(EnumType.STRING)
     @Column(name = "role_name")

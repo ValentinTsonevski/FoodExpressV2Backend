@@ -13,7 +13,7 @@
 	</parent>
 
 	<groupId>project</groupId>
-	<artifactId>FoodExpressV2</artifactId>
+	<artifactId>FoodExpressV2Backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
@@ -71,6 +71,13 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-validation</artifactId>
 		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-core</artifactId>
+			<version>6.4.2</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>

@@ -13,7 +13,7 @@
 	</parent>
 
 	<groupId>project</groupId>
-	<artifactId>FoodExpressV2</artifactId>
+	<artifactId>FoodExpressV2Backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
